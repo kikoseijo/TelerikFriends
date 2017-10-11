@@ -2,17 +2,18 @@
   "ProjectName": "NativeScript Friends",
   "ProjectGuid": "63a704c4-a481-4b2d-9c18-26fc0fc836ea",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.NativeScriptFriends",
+  "AppIdentifier": "com.puntoceromultimarcas.coches",
   "DisplayName": "NativeScript Friends",
-  "Author": "",
+  "Author": "Kiko Seijo",
   "Description": "NativeScript Friends",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
-    "1",
-    "2"
+    "1"
   ],
-  "iOSBackgroundMode": [],
+  "iOSBackgroundMode": [
+    "fetch"
+  ],
   "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
   "AndroidPermissions": [],
   "DeviceOrientations": [
@@ -21,5 +22,6 @@
   "AndroidHardwareAcceleration": "false",
   "iOSStatusBarStyle": "Default",
   "FrameworkVersion": "2.5.0",
-  "Framework": "NativeScript"
+  "Framework": "NativeScript",
+  "iOSDeploymentTarget": "9.0"
 }

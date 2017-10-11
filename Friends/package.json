@@ -1,6 +1,6 @@
 {
   "nativescript": {
-    "id": "org.nativescript.sampleFriends",
+    "id": "com.puntoceromultimarcas.coches",
     "tns-android": {
       "version": "2.5.0"
     },
