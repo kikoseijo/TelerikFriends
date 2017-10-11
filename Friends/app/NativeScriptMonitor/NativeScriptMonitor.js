@@ -1,5 +1,5 @@
 var http = require('http'),
-    LocationManager = require('location').LocationManager,
+    lManager = require('nativescript-geolocation'),
     analytics = require('./EqatecMonitor'),
     deviceInfo = require('./DeviceInfo'),
     UserPreferences = require('application-settings');
@@ -35,13 +35,14 @@ exports.Monitor = function(settings) {
         XMLHttpRequest.prototype.withCredentials = false;
     }
 
-    var locationManager = new LocationManager();
+    var locationManager = new lmanager.LocationManager();
     var location = { latitude: '', longitude: '' };
     if (locationManager.lastKnownLocation) {
         location.latitude = locationManager.lastKnownLocation.latitude;
         location.longitude = locationManager.lastKnownLocation.longitude;
     }
     eqatecSettings.location = location;
+
 
     var monitor = global._eqatec.createMonitor(eqatecSettings);
 

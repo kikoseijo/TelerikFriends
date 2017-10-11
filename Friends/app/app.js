@@ -1,5 +1,5 @@
-var application = require("application");
-application.mainModule = "./views/main-page";
+var app = require("application");
+
 
 /*
  * Define constants which we will use across the application
@@ -12,41 +12,41 @@ global.USER_ID = "userId";
 global.EVERLIVE = null;
 global.MONITOR = null;
 
-application.onLaunch = function (context) {
-    // For Android applications, the context is an android.content.Intent class.
-    // For iOS applications, the context is undefined.
-    if (application.android) {
-        console.log("Launched Android application with the following intent: " + context + ".");
+app.onLaunch = function (context) {
+    // For Android apps, the context is an android.content.Intent class.
+    // For iOS apps, the context is undefined.
+    if (app.android) {
+        console.log("Launched Android app with the following intent: " + context + ".");
     }
-    else if (application.ios) {
-        console.log("Launched iOS application.");
+    else if (app.ios) {
+        console.log("Launched iOS app.");
         // Workaround for a bug in the iOS runtime version 1.2.2, should be fixed with next version
         // This constant is used in the location module but must be referenced earlier on so that the appropriate iOS framework can be loaded
         kCLDistanceFilterNone;
     }
 };
 
-application.onSuspend = function () {
+app.onSuspend = function () {
     console.log("Application suspended.");
 };
 
-application.onResume = function () {
+app.onResume = function () {
     console.log("Application resumed.");
 };
 
-application.onExit = function () {
+app.onExit = function () {
     console.log("Application will exit.");
     if(MONITOR !== null){
         MONITOR.stop();
     }
 };
 
-application.onLowMemory = function () {
+app.onLowMemory = function () {
     console.log("Memory is low.");
 };
 
-application.onUncaughtError = function (error) {
+app.onUncaughtError = function (error) {
     console.log("Application error: " + error.name + "; " + error.message + "; " + error.nativeError);
 };
 
-application.start();
+app.start({ moduleName: "./views/main-page" });
