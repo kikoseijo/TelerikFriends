@@ -1,0 +1,28 @@
+{
+  "Framework": "NativeScript",
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "FrameworkVersion": "2.5.0",
+  "ProjectName": "HopethisWorks",
+  "ProjectGuid": "a6ee11de-0588-4bb2-b1e1-abdac8c895f0",
+  "projectVersion": "1",
+  "AppIdentifier": "com.telerik.HopethisWorks",
+  "DisplayName": "HopethisWorks",
+  "Author": "",
+  "Description": "HopethisWorks",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default"
+}

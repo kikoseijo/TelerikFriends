@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-plugin-livesync@~0.17.0",
+        "scope": null,
+        "escapedName": "nativescript-plugin-livesync",
+        "name": "nativescript-plugin-livesync",
+        "rawSpec": "~0.17.0",
+        "spec": ">=0.17.0 <0.18.0",
+        "type": "range"
+      },
+      "/private/tmp/builds/_/c0b8dda6f3dd04232973d730ac4bf3e30453c282/NativeScript250/output/NativeScript250"
+    ]
+  ],
+  "_from": "nativescript-plugin-livesync@>=0.17.0 <0.18.0",
+  "_id": "nativescript-plugin-livesync@0.17.0",
+  "_inCache": true,
+  "_location": "/nativescript-plugin-livesync",
+  "_nodeVersion": "0.12.7",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-plugin-livesync-0.17.0.tgz_1492079911445_0.5679034797940403"
+  },
+  "_npmUser": {
+    "name": "telerik",
+    "email": "npm@telerik.com"
+  },
+  "_npmVersion": "2.12.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-plugin-livesync@~0.17.0",
+    "scope": null,
+    "escapedName": "nativescript-plugin-livesync",
+    "name": "nativescript-plugin-livesync",
+    "rawSpec": "~0.17.0",
+    "spec": ">=0.17.0 <0.18.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-plugin-livesync/-/nativescript-plugin-livesync-0.17.0.tgz",
+  "_shasum": "d84c017b92edbbe89b013f9d479178ee4c3bb0fb",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-plugin-livesync@~0.17.0",
+  "_where": "/private/tmp/builds/_/c0b8dda6f3dd04232973d730ac4bf3e30453c282/NativeScript250/output/NativeScript250",
+  "bugs": {
+    "url": "https://github.com/telerik/NativeScript-Plugin-LiveSync/issues"
+  },
+  "dependencies": {},
+  "description": "LiveSync plugin for NativeScript.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d84c017b92edbbe89b013f9d479178ee4c3bb0fb",
+    "tarball": "https://registry.npmjs.org/nativescript-plugin-livesync/-/nativescript-plugin-livesync-0.17.0.tgz"
+  },
+  "homepage": "http://www.telerik.com/platform/appbuilder",
+  "main": "liveSync.js",
+  "maintainers": [
+    {
+      "name": "telerik",
+      "email": "npm@telerik.com"
+    }
+  ],
+  "name": "nativescript-plugin-livesync",
+  "nativescript": {
+    "platforms": {
+      "ios": "1.5.2",
+      "android": "1.3.0"
+    },
+    "variables": {
+      "HOST": {
+        "defaultValue": ""
+      },
+      "LIVESYNC_TOKEN": {
+        "defaultValue": ""
+      },
+      "NSRUNTIME_VERSION": {
+        "defaultValue": ""
+      },
+      "LSAPPLICATION_QUERIES_SCHEME": {
+        "defaultValue": ""
+      },
+      "CFBUNDLE_URL_SCHEME": {
+        "defaultValue": ""
+      },
+      "SAFARI_RESTART": {
+        "defaultValue": "true"
+      },
+      "CONFIGURATION": {
+        "defaultValue": ""
+      }
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/NativeScript-Plugin-LiveSync.git"
+  },
+  "scripts": {},
+  "version": "0.17.0"
+}
