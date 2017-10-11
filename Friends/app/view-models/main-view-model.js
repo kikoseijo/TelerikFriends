@@ -5,6 +5,8 @@ var __extends = this.__extends || function (d, b) {
     d.prototype = new __();
 };
 
+
+
 var observable = require("data/observable");
 var Everlive = require("../lib/everlive.all.min");
 var dialogs = require("ui/dialogs");
